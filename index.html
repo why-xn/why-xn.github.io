@@ -13,35 +13,47 @@
             color: #333;
             margin: 0;
             padding: 0;
-            text-align: center;
         }
         header {
             background-color: #1e2a3a;
             color: #fff;
+            text-align: center;
             padding: 50px 0;
         }
         header h1 {
             margin: 0;
             font-size: 3em;
         }
-        section {
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
+        }
+        main {
             padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        section {
+            margin-bottom: 30px;
         }
         h2 {
             color: #1e2a3a;
         }
-        p {
-            max-width: 800px;
-            margin: 0 auto;
-            font-size: 1.2em;
-        }
         footer {
             background-color: #1e2a3a;
             color: #fff;
-            padding: 20px;
+            text-align: center;
+            padding: 20px 0;
             position: fixed;
             bottom: 0;
             width: 100%;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
         }
         a {
             color: #4caf50;
@@ -55,18 +67,56 @@
 <body>
 
 <header>
-    <h1>Hi, I'm Shihab Hasan</h1>
+    <h1>Shihab Hasan</h1>
     <p>Cloud Native Software Engineer | DevOps | Site Reliability Engineer</p>
 </header>
 
-<section>
-    <h2>Welcome to my GitHub page!</h2>
-    <p>I specialize in cloud-native technologies, DevOps practices, and site reliability engineering. With experience in Kubernetes, automation, infrastructure optimization, and CI/CD, I aim to build scalable, efficient, and highly available systems.</p>
-    <p>Feel free to explore my repositories and check out my work!</p>
-</section>
+<main>
+    <section>
+        <h2>About Me</h2>
+        <p>Cloud Native Software Engineer with 8 years of experience designing, developing, and maintaining robust software systems. Skilled in leveraging Golang, Kubernetes, AWS, and GCP to architect innovative solutions and drive DevSecOps and SRE adoption.</p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>Backend: Golang, Java, Python, SQL, MongoDB</li>
+            <li>Frontend: Angular, JavaScript, HTML, CSS, Bootstrap</li>
+            <li>DevOps: Docker, Kubernetes, GitLab CI, ArgoCD, Prometheus, Grafana</li>
+            <li>Data Pipelines: Apache Airflow, Apache Iceberg, Trino</li>
+            <li>Miscellaneous: Kafka, Redis, Temporal, Tailscale, AWS, GCP, Ansible</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+        <ul>
+            <li><strong>iXsystems Inc.</strong> (Aug 2022 – Aug 2023) - Software Engneer (Golang Developer)</li>
+            <li><strong>Genesis Digital Assets</strong> (May 2023 – Aug 2023) - DevOps/SRE Consultant</li>
+            <li><strong>KloverCloud BD Ltd</strong> (Feb 2019 – Jul 2023) - Senior Software Engineer</li>
+            <li><strong>Nilavo Technologies Ltd</strong> (Nov 2015 – Aug 2018) - Software Engineer</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Master’s in Computer Science</strong>, University of Missouri-Kansas City (Aug 2023 - Present)</li>
+            <li><strong>Bachelor’s in Computer Science</strong>, Islamic University of Technology (Dec 2011 – Dec 2015)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Links</h2>
+        <ul>
+            <li><a href="https://github.com/why-xn" target="_blank">GitHub</a></li>
+            <li><a href="http://www.linkedin.com/in/shasan11" target="_blank">LinkedIn</a></li>
+        </ul>
+    </section>
+</main>
 
 <footer>
-    <p>&copy; 2025 Shihab Hasan | <a href="https://github.com/ShihabHasan" target="_blank">GitHub</a> | <a href="mailto:shihabhasan.official@gmail.com">Email</a></p>
+    <p>&copy; 2025 Shihab Hasan</p>
 </footer>
 
 </body>
